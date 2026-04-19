@@ -1,3 +1,3 @@
 ---
-brief: An omoospace project
+brief: An omoolab project
 ---
