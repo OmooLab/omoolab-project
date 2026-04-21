@@ -14,6 +14,13 @@ ENV/
 env.bak/
 venv.bak/
 
+.secrets
+.secrets.*
+!.secrets.example
+secrets/
+SECRETS/
+secrets.bak/
+
 # Claude
 .claudian
 
