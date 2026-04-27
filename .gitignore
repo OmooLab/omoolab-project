@@ -1,3 +1,8 @@
+# thumbs.db 
+# Windows database files that cache folder 
+# thumbnails (images, videos, documents) for faster viewing in File Explorer
+[Tt]humbs.db
+
 # Tempary files
 temp
 sandbox.*
@@ -23,14 +28,18 @@ secrets.bak/
 
 # Claude
 .claudian
+.obsidian/plugins/claudian/data.json
 
 # Obsidian setting
 .obsidian/*
 !.obsidian/snippets
 !.obsidian/app.json
+!.obsidian/plugins/
+
 
 # Blender
 *.blend1
+blender_assets.cats.txt~
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

@@ -83,6 +83,8 @@
 # Executable/Installer
 *.apk                   lfs
 *.exe                   lfs
+*.msi                   lfs
+*.dmg                   lfs
 
 # Documents
 *.pdf                   lfs
@@ -99,12 +101,12 @@
 *.aep                   lfs
 *.prproj                lfs
 *.spp                   lfs
+*.abr                   lfs
 
 # Zbrush
 *.zbr                   lfs
 *.zpr                   lfs
 *.ztl                   lfs
-*.c4d                   lfs
 
 # Autodesk
 *.max                   lfs
@@ -113,9 +115,8 @@
 *.3dm                   lfs
 *.3ds                   lfs
 
-# Blender
+# Other DCC
 *.blend                 lfs
-*.blend1                lfs
 *.c4d                   lfs
 
 # Imaging
@@ -125,3 +126,6 @@
 *.ome                   lfs
 *.map                   lfs
 *.mrc                   lfs
+
+# Others
+*.tpl                   lfs
