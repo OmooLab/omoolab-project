@@ -1,0 +1,15 @@
+title: "OpenWiki"
+description: "知识库"
+logo: "/logo.svg"
+siteTitle: false
+appearance: false
+nav:
+  - text: "知识库"
+    link: "/overview"
+  - text: "资料库"
+    link: "/sources/"
+  - text: "文档"
+    link: "/docs/"
+footer:
+  message: "Powered by OpenWiki"
+  copyright: "© 2024"
