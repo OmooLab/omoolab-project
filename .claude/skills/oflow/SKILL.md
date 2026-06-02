@@ -51,6 +51,16 @@ description: 用 git 记录创作过程和团队协作的指令集，适用于�
 - 表中 git 相关的指令在正式执行前，汇总信息给用户，确认后再执行。
 - 如果 git 遇到 Authentication failed，尝试再次执行，如果依然不行，报告用户
 
+### 获取仓库
+
+触发词：`获取仓库`，`克隆仓库`，`下载仓库`
+
+执行步骤：
+
+1. 执行 `git clone [repo-url]`
+2. 若项目`.lfsconfig`中发现`fetchexclude = *`，询问是否下载 LFS 文件
+   - 若需要，执行`git lfs pull --exclude= --include [folder]`来下载指定文件夹，或执行`git lfs pull --exclude= --include *`来下载所有文件
+
 ### 创建个人分支
 
 触发词：`创建时间线`，`创建个人分支`
@@ -70,6 +80,7 @@ description: 用 git 记录创作过程和团队协作的指令集，适用于�
 
 1. 执行 `git pull origin main`
 2. 如果遇到合并冲突，询问式地帮用户处理冲突
+3. 冲突解决提交后，若之前涉及大文件冲突，执行`git lfs pull --exclude= --include [folder]`来下载解决冲突后缺失的 LFS 文件
 
 ### 提交
 
@@ -86,7 +97,6 @@ description: 用 git 记录创作过程和团队协作的指令集，适用于�
 
 执行步骤：
 
-1. 执行 `git pull origin main`
-2. 如果遇到合并冲突，询问式地帮用户处理冲突
-3. 执行 `git push`
-4. 展示 PR 链接，并提供标题和内容建议，用户可复制内容到远程仓库页面
+1. 执行「更新」指令
+2. 执行 `git push`
+3. 分别提供： PR 页面网址供用户访问，并提供标题、内容，可供用户复制到 PR 页面

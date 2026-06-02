@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch",
+      "Read(~/.cache/**/*)",
+      "Edit(~/.cache/**/*)",
+      "Bash",
+      "Bash(curl *)",
+      "Bash(wget *)",
+      "Bash(ls *)",
+      "Bash(cd *)",
+      "Bash(mkdir *)",
+      "Bash(* --version)",
+      "Bash(* --help *)",
+      "mcp__MiniMax__web_search"
+    ]
+  }
+}

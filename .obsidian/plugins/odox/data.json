@@ -1,0 +1,8 @@
+{
+  "docsPath": "openwiki/docs",
+  "assetsPath": "openwiki/public",
+  "nestInFolder": false,
+  "preserveFolderStructure": true,
+  "transparentCanvas": true,
+  "canvasEmbedTemplate": "<Viewer src=\"{url}\" />"
+}

@@ -1,3 +1,3 @@
 ---
-brief: An omoolab project
+description: An omoolab project
 ---

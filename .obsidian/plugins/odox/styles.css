@@ -1,0 +1,30 @@
+/*
+
+This CSS file will be included with your plugin, and
+available in the app when your plugin is enabled.
+
+If your plugin does not need CSS, delete this file.
+
+*/
+
+/* 透明导出模式：隐藏洞洞板背景 */
+.canvas-transparent-export .canvas-background {
+	display: none !important;
+}
+
+/* 透明导出模式：确保 canvas 容器背景透明 */
+.canvas-transparent-export {
+	background-color: transparent !important;
+	background-image: none !important;
+}
+
+/* 截图时隐藏页面其他元素 */
+.odox-hidden {
+	display: none !important;
+}
+
+/* 截图时的 body 样式 */
+.odox-capturing {
+	background-color: transparent !important;
+	background-image: none !important;
+}

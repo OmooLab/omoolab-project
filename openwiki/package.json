@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^25.6.0",
+    "js-yaml": "^4.1.1",
+    "v-beautiful-mermaid": "^0.0.3",
+    "vitepress": "2.0.0-alpha.17"
+  },
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  }
+}

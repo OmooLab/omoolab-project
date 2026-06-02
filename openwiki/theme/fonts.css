@@ -1,0 +1,22 @@
+@import url("https://fontsapi.zeoseven.com/292/main/result.css");
+@import url("https://fontsapi.zeoseven.com/292/light/result.css");
+@import url("https://fontsapi.zeoseven.com/293/main/result.css");
+@import url("https://fontsapi.zeoseven.com/2/main/result.css");
+@import url("https://fontsapi.zeoseven.com/147/main/result.css");
+
+:root {
+  --vp-font-family-base: "LXGW WenKai";
+  --vp-font-family-mono: "LXGW WenKai Mono";
+}
+
+strong {
+  font-family: "LXGW ZhenKai GB";
+}
+
+em {
+  font-family: "LXGW WenKai Light";
+}
+
+h1 {
+  font-family: "JiangChengLvDongSong";
+}

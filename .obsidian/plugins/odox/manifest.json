@@ -1,0 +1,10 @@
+{
+	"id": "odox",
+	"name": "Odox",
+	"version": "0.1.0",
+	"minAppVersion": "0.15.0",
+	"description": "Export Obsidian notes to static docs tools with asset management",
+	"author": "nan",
+	"authorUrl": "https://github.com/icrdr",
+	"isDesktopOnly": false
+}
